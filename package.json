@@ -1,0 +1,23 @@
+{
+    "name": "testapp",
+    "version": "1.0.0",
+    "description": "Simple app which prints Welcome to the world on get",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rishitsahu/testApp.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/rishitsahu/testApp/issues"
+    },
+    "homepage": "https://github.com/rishitsahu/testApp#readme",
+    "dependencies": {
+      "express": "^4.18.1"
+    }
+  }
+  
