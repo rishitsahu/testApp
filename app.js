@@ -11,5 +11,5 @@ app.get('/health', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`My app listening on port ${port}`)
+  console.log(`My app listening on port ${port} with service name ${SERVICE_NAME}`)
 })
