@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Welcome to my stack2!!')
+  res.send(`Welcome to my stack2!! ${process.env.SERVICE_NAME}`)
 });
 
 app.get('/health', (req, res) => {
